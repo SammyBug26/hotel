@@ -395,8 +395,14 @@ nav li.active a {
   overflow-x: hidden;
 }
 
+section {
+  padding: 10px;
+}
+
 img.img {
   grid-area: photo;
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
@@ -411,6 +417,8 @@ address {
 
 a {
   grid-area: phone;
+  text-decoration: none;
+  color: black;
 }
 
 /* --------------------------- MAIN --------------------------- */
@@ -446,6 +454,9 @@ footer a {
   /* NAVIGATION STUFF GOES HERE  */
   section {
     grid-template-areas: "photo name" "photo address" "photo phone";
+    grid-template-columns: 250px auto;
+    -moz-column-gap: 8px;
+         column-gap: 8px;
   }
 }
 @media only screen and (min-width: 64rem) {

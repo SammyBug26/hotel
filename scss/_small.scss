@@ -85,9 +85,14 @@ nav {
     position: relative; //stops side sliding to see the menu items
     overflow-x: hidden; //stops extra space to the right of the nav links
 }
-
+section {
+    padding: $gutter;
+    
+}
 img.img {
     grid-area: photo;
+    margin: 0;
+    padding: 0;
 }
 h2 {
     grid-area: name;
@@ -95,7 +100,12 @@ h2 {
     margin: 0;
 }
 address {grid-area: address;}
-a {grid-area: phone;}
+a {
+    grid-area: phone;
+    text-decoration: none;
+    color: black;
+
+}
 
 
 

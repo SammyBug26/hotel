@@ -9,15 +9,6 @@ export const hotels = [
     ]
   },
   {
-    "photo": "hotel2.webp",
-    "name": "Mountain Crest Lodge",
-    "phone": "555-874-6621",
-    "address": [
-      "88 Pine Summit Road",
-      "Highland, CO 80439"
-    ]
-  },
-  {
     "photo": "hotel3.webp",
     "name": "Lakeside Haven Inn",
     "phone": "555-290-4472",
