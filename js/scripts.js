@@ -16,6 +16,7 @@ hotels.forEach(hotel => {
     const theImage = document.createElement('img');
     theImage.src = `images/${hotel.photo}`;
     theImage.alt = hotel.name;
+    theImage.className = 'img';
 
     const theName = document.createElement('h2');
     theName.textContent = hotel.name;
