@@ -14,7 +14,7 @@ hotels.forEach(hotel => {
     const mySection = document.createElement('section');
 
     const theImage = document.createElement('img');
-    theImage.src = `./images/${hotel.image}`;
+    theImage.src = `./images/${hotel.photo}`;
     theImage.alt = hotel.name;
     theImage.classList.add('img');
 
