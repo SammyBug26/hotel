@@ -1,4 +1,16 @@
-/* NAVIGATION STUFF GOES HERE  */
+main {
+    padding: $gutter;
+    margin: auto;
+    max-width: 850px;
+}
+
+
+#cards {
+column-gap: $gutter;
+row-gap: $gutter;
+padding: 10px;
+width: auto;
+        
 section {
     grid-template-areas: 
         "photo name"
@@ -6,4 +18,6 @@ section {
         "photo phone";
         grid-template-columns: 250px auto;
         column-gap: 8px;
-}
+        border: $greyColor 1px solid;
+        
+}}

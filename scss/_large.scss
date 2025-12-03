@@ -1,6 +1,9 @@
 header, nav, main {
     max-width: 960px;
-    margin: auto;
+    margin: 0 auto;
+}
+#headerWrapper {
+    background-color: white;
 }
 
 /* NAVIGATION STUFF GOES HERE  */
@@ -11,7 +14,8 @@ header, nav, main {
  .moveOver>.content {
     transform: translateX(0px);
  }
-
+ #navWrapper {
+    background-color: rgba($accentColor, 0.3);}
  nav {
     background-color: transparent;
     position: static;
@@ -27,14 +31,20 @@ header, nav, main {
         border: none;
        // border-right: 1px solid rgba(0,0,0,0.2);
     }
-
+        li.active a {
+        background-color: $secondaryColor;
+        color: white;
 }
-#navWrapper {
-    background-color: #f7f7f7;
+        li.active a:hover {
+        background-color: rgba($secondaryColor, 0.6); // 30% opacity example
+        }
 }
 
-.parent {
+#cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    section {
+        border-radius: 10px;
+    }
 }
  
